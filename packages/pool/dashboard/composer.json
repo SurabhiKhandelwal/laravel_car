@@ -1,0 +1,13 @@
+{
+    "name": "pool/dashboard",
+    "type": "dashboard",
+    "license": "",
+    "authors": [
+        {
+            "name": "surabhi",
+            "email": ""
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

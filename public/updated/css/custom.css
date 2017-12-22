@@ -1,0 +1,86 @@
+@charset "UTF-8";
+/* CSS Document
+Client: 
+Company: Informatics, Inc
+Author: J Stephens
+Date: Summer 2016
+
+blue: #0aa5df
+orange: #fe8c01
+*/
+
+/* TYPOGRAPHY */
+body {font-family: "Open Sans", sans-serif; font-weight: 400; font-size: 14px; height: 100%; font-size: 13px;}
+h1, h2, h3 {}
+h1 {}
+h2 {}
+h3 {}
+p {}
+img {max-width: 100%;}
+
+/* LINKS */
+
+
+/* Animate */
+a {
+    -webkit-transition: all .25s linear;
+    -moz-transition: all .25s linear;
+    -o-transition: all .25s linear;
+    transition: all .25s linear;
+}
+
+/* FRAME */
+.brand-text {font-size: 16px;}
+
+.fa.icon-2x {font-size: 2em;}
+.fa.icon-3x {font-size: 3em;}
+.fa.icon-4x {font-size: 4em;}
+.fa.icon-5x {font-size: 5em;}
+
+.panel .media {margin: 0; border-top: 1px dotted #ccc;}
+
+/* Propety List */
+
+.no-panel-hdr {border-bottom: 1px solid #ccc; box-shadow: 0 1px 0 rgba(255,255,255,.9); margin: 10px 0 20px 0; padding: 0 0 10px 0; text-transform: uppercase;}
+
+.property-list-item {overflow: hidden; padding: 15px;}
+.property-list-item  h3 {font-size: 18px;}
+.property-list-item ul {padding: 0; list-style: none;}
+.property-list-item ul li {border-right: 1px solid #ccc; float: left; font-size: 12px; margin-right: 5px; padding: 0 5px 0 0; display: inline-block; margin: 2px;}
+.property-list-item ul li:last-of-type {border: 0;}
+
+.property-list-item .property-btns {border-top: 1px solid #ccc; float: left; padding: 10px 0 0 0; margin: 10px 0 0 0; width: 100%; text-align: center;}
+.property-list-item .property-btns li {border: 0; margin: 2px; padding: 0; float: none;}
+.property-list-item .property-btns li a {padding: 5px;}
+
+.save-search-list {padding: 0; list-style: none;}
+.save-search-list li {display: inline-block; padding: 5px 8px; border: 1px solid #ccc; margin: 0 2px 5px 0; background: #f1f4f7;}
+.search-settings .bootstrap-select {width: auto !important; right: -10px; top: -7px;}
+
+.rr-search {border-bottom: 5px solid #ecf0f5;}
+.rr-search .bootstrap-select {width: auto !important; margin: 0 !important;}
+
+#mainnav-shortcut a {color: #fff; opacity: .8;}
+#mainnav-shortcut a:hover {opacity: 1;}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
+/* Large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+}
+
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+    background-color: #f99a3e;
+    border-color: #f99a3e;
+}

@@ -1,0 +1,13 @@
+{
+    "name": "pool/auth",
+    "description": "Authorization package created",
+    "type": "auth",
+    "authors": [
+        {
+            "name": "surabhi",
+            "email": ""
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

@@ -1,0 +1,13 @@
+{
+    "name": "pool/ride",
+    "type": "ride",
+    "license": "",
+    "authors": [
+        {
+            "name": "surabhi",
+            "email": ""
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
